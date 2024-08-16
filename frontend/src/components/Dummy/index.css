@@ -1,0 +1,43 @@
+/* Header styles */
+.header {
+    background-color: #333; /* Change the background color */
+    color: #fff; /* Change the text color */
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  /* Logo styles */
+  .logo a {
+    color: #fff; /* Change the color of the logo text */
+    text-decoration: none; /* Remove underline from the logo text */
+    font-size: 24px; /* Adjust the font size of the logo text */
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex; /* Use flexbox for the navigation */
+  }
+  
+  /* Navigation menu styles */
+  .nav-menu {
+    list-style-type: none; /* Remove default bullet points */
+    display: flex; /* Use flexbox for the navigation items */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navigation item styles */
+  .nav-item {
+    margin-right: 20px; /* Adjust spacing between navigation items */
+  }
+  
+  .nav-item a {
+    color: #fff; /* Change the color of navigation links */
+    text-decoration: none; /* Remove underline from navigation links */
+    font-size: 16px; /* Adjust the font size of navigation links */
+  }
+  
+  /* Navigation item hover styles */
+  .nav-item a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }
+  

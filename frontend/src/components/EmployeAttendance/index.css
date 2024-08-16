@@ -1,0 +1,152 @@
+/* Heading */
+.Hre-head1 {
+    font-size: 35px; /* Adjust font size */
+    font-family: "roboto";
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+ 
+ /* Button */
+ .Hre-button1 {
+     background-color: #0088cc;
+     height: 70px; /* Adjust height */
+     width: 180px; /* Adjust width */
+     color: white;
+     border-radius: 10px;
+     font-size: 16px; /* Adjust font size */
+     box-shadow: 0 2px 8px 0 rgba(8, 7, 7, 0.2), 0 4px 20px 0 rgba(24, 16, 16, 0.555);
+     border: none;
+     padding: 10px;
+     cursor: pointer;
+ }
+ 
+ /* Card */
+ .Hre-card1 {
+     display: flex;
+     flex-direction: row; /* Adjust for smaller screens */
+     justify-content: space-around; /* Adjust for smaller screens */
+     align-items: center;
+     height: auto; /* Adjust for smaller screens */
+ }
+ 
+ /* Span */
+ .Hre-span1 {
+     margin: 10px; /* Adjust spacing */
+ }
+ 
+ /* Table */
+ .Hre-table1 {
+     display: flex;
+     flex-direction: column;
+     padding: 20px;
+     border: 2px solid  black;
+     border-radius: 10px;
+     margin-right: 10px; /* Adjust margin */
+     margin-bottom: 10px; /* Adjust margin */
+ }
+ 
+ /* Attendance Container */
+ .attendance-container {
+     padding: 15px; /* Adjust padding */
+ }
+ 
+ /* Employee List Container */
+ .emp-list-container {
+     display: flex;
+     flex-wrap: wrap; /* Adjust for smaller screens */
+     justify-content: space-between; /* Adjust for smaller screens */
+     align-items: center;
+ }
+ 
+ /* Employee List Item */
+ .emp-list-item {
+     width: 130px; /* Adjust width */
+     height: 90px; /* Adjust height */
+     padding: 10px;
+     border-radius: 10px;
+     margin-right: 10px; /* Adjust margin */
+     margin-bottom: 10px; /* Adjust margin */
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(9, 141, 141);
+     box-shadow: 0 2px 8px 0 rgba(8, 7, 7, 0.2), 0 4px 20px 0 rgba(45, 30, 30, 0.555);
+     cursor: pointer;
+ }
+ 
+ /* Employee List Name */
+ .emp-list-name {
+     font-family: "Roboto";
+     font-size: 16px; /* Adjust font size */
+     font-weight: 600;
+     color: white;
+ }
+ 
+ /* Employee List Item Button */
+ .emp-list-item-btn {
+     background-color: transparent;
+     border: none;
+ }
+ 
+ /* Employee Data View Container */
+ .emp-data-view-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     align-items: flex-start;
+ }
+ 
+ /* Employee Data View List */
+ .emp-data-view-list {
+     display: flex;
+     flex-wrap: wrap; /* Adjust for smaller screens */
+     justify-content: flex-start;
+     align-items: flex-start;
+ }
+ 
+ /* Employee View Data Table */
+ .emp-view-data-table {
+     padding: 15px; /* Adjust padding */
+ }
+ 
+ /* Employee Work Hours Container */
+ .emp-work-hrs-container {
+     padding: 10px;
+     border: 1px solid cornflowerblue;
+     border-radius: 5px;
+     margin-bottom: 10px;
+ }
+ 
+ /* Work Data Name */
+ .work-data-name {
+     color: rgba(24, 16, 16, 0.555);
+     font-family: "Roboto";
+     font-size: 16px; /* Adjust font size */
+     font-weight: 600;
+ }
+ 
+ /* Work Data Value */
+ .work-data-value {
+     color: black;
+     font-family: "Roboto";
+     font-size: 20px; /* Adjust font size */
+     font-weight: 700;
+ }
+ 
+ /* Tables */
+ .tables {
+     border: 1px solid cornflowerblue;
+     border-radius: 5px;
+ }
+ 
+ /* Employee Button Status Name */
+ .emp-bt-status-name {
+     color: rgb(9, 141, 141);
+     font-family: "Roboto";
+     font-size: 24px; /* Adjust font size */
+     margin-top: 20px; /* Adjust margin */
+ }
+ 

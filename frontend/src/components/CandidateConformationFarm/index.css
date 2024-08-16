@@ -1,0 +1,72 @@
+/* Container */
+.conformation-farm-container {
+  max-width: 90%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Container */
+.conformation-farm-container-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Heading */
+.conformation-farm-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Adjust spacing */
+}
+
+/* Form */
+.conformation-farm-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Fill the container */
+}
+
+/* Label */
+.conformation-farm-label {
+  margin-bottom: 10px; /* Adjust spacing */
+  color: #333;
+}
+
+/* Input */
+.conformation-farm-input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%; /* Fill the container */
+}
+
+/* Button */
+.conformation-farm-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px; /* Adjust padding */
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%; /* Fill the container */
+}
+
+/* Button Hover */
+.conformation-farm-button:hover {
+  background-color: #217dbb;
+}
+
+/* Error Message */
+.conformation-farm-span {
+  color: red;
+  margin-top: 5px; /* Adjust spacing */
+}
